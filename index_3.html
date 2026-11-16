@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VISTA PREVIA · Cinco Talentos</title>
+<meta name="description" content="Cinco Talentos será un mercado en línea donde cada venta se reinvierte para impulsar al siguiente emprendedor. Próximamente.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 34'%3E%3Ccircle cx='17' cy='17' r='16' fill='%231F4D3A'/%3E%3Ctext x='17' y='23' text-anchor='middle' font-family='Arial' font-size='18' font-weight='700' fill='%23F2C14E'%3E5%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--verde:#1F4D3A;--verde2:#2A6049;--oro:#F2C14E;--oro-suave:#F6E7BF;--fondo:#FBFAF6;--tinta:#1B1F1C;--gris:#4A5350;--linea:#E3E0D6;--blanco:#FFFFFF}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--tinta);background:var(--fondo);line-height:1.5}
+h1,h2,h3{font-family:'Bricolage Grotesque',Inter,sans-serif;font-weight:700;margin:0;line-height:1.1}
+p{margin:0}
+a{color:var(--verde)}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+header{border-bottom:1px solid var(--linea);background:var(--fondo)}
+.bar{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-top:16px;padding-bottom:16px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--tinta);font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:22px}
+nav{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:15px;font-weight:500}
+nav a{text-decoration:none;padding:10px 0}
+.hero{background:var(--verde);color:var(--blanco)}
+.hero .wrap{padding-top:72px;padding-bottom:72px;display:flex;flex-direction:column;gap:20px}
+.tag{align-self:flex-start;background:var(--oro);color:var(--tinta);font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px}
+.hero h1{font-size:clamp(36px,6vw,58px);max-width:820px}
+.hero p{font-size:19px;color:#E4EDE8;max-width:640px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;padding:14px 24px;border-radius:8px}
+.btn.oro{background:var(--oro);color:var(--tinta)}
+.btn.linea{border:1px solid #9FBFB0;color:var(--blanco)}
+section{padding:64px 0}
+section h2{font-size:clamp(28px,4vw,36px);margin-bottom:12px}
+.lead{font-size:17px;color:var(--gris);max-width:720px;margin-bottom:28px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.card{background:var(--blanco);border:1px solid var(--linea);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.num{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:28px;color:var(--verde)}
+.card h3{font-size:19px;font-family:Inter,sans-serif;font-weight:600;line-height:1.3}
+.card p{font-size:15px;color:var(--gris)}
+.aviso{font-size:14px;color:var(--gris);margin-bottom:20px}
+.ficha{padding:0;overflow:hidden}
+.foto{height:150px;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:44px;color:var(--verde);background:#E9EFE9}
+.ficha .cuerpo{padding:18px 20px 20px;display:flex;flex-direction:column;gap:8px}
+.chip{align-self:flex-start;font-size:12px;font-weight:600;background:var(--oro-suave);color:#4A3A0C;padding:4px 10px;border-radius:999px}
+.ficha h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:21px}
+.banda{background:var(--oro-suave)}
+.banda .wrap{display:flex;flex-wrap:wrap;gap:40px;align-items:center}
+.banda .txt{flex:999 1 420px;min-width:0;display:flex;flex-direction:column;gap:16px}
+.banda p{font-size:17px;color:#33302A}
+blockquote{margin:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:500;font-size:22px;line-height:1.35;color:var(--verde)}
+blockquote cite{display:block;margin-top:8px;font-family:Inter,sans-serif;font-style:normal;font-size:14px;font-weight:600;color:#33302A}
+.reparto{flex:1 1 320px;min-width:0;background:var(--blanco);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:14px}
+.reparto h3{font-size:20px}
+.barra{display:flex;height:16px;border-radius:999px;overflow:hidden}
+.ley{display:flex;gap:10px;align-items:center;font-size:14px;color:#33302A}
+.ley i{width:12px;height:12px;border-radius:3px;flex:none}
+ul.lista{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+ul.lista li{background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:16px 18px;font-size:15px}
+ul.lista b{display:block;margin-bottom:2px}
+.form{margin-top:32px;background:var(--blanco);border:1px solid var(--linea);border-radius:14px;padding:28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;max-width:900px}
+.form h3{grid-column:1/-1;font-size:24px}
+.campo{display:flex;flex-direction:column;gap:6px}
+.campo.ancho{grid-column:1/-1}
+.campo label{font-size:14px;font-weight:600;color:var(--gris)}
+.campo input[type=text],.campo input[type=email],.campo input[type=tel],.campo textarea,.campo select{font:inherit;padding:12px 14px;border:1px solid #8C887A;border-radius:8px;background:#fff;color:var(--tinta)}
+.campo textarea{min-height:110px;resize:vertical}
+.campo small{font-size:13px;color:var(--gris)}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:#33302A}
+.check input{margin-top:4px;width:18px;height:18px;flex:none}
+.enviar{font:inherit;font-size:16px;font-weight:600;background:var(--verde);color:#fff;border:1px solid var(--verde);padding:14px 28px;border-radius:8px;cursor:pointer;justify-self:start}
+.enviar:disabled{opacity:.6;cursor:wait}
+.msg{grid-column:1/-1;font-size:15px;padding:14px 16px;border-radius:10px;display:none}
+.msg.ok{display:block;background:#E6F1EA;color:#143427}
+.msg.err{display:block;background:#FBE9E4;color:#7A2A14}
+.oculto{position:absolute;left:-9999px}
+.campo input:focus,.campo textarea:focus,.campo select:focus,.enviar:focus-visible{outline:3px solid var(--oro);outline-offset:2px}
+footer{border-top:1px solid var(--linea);padding:28px 0;font-size:14px;color:var(--gris)}
+.prev{background:#B3261E;color:#fff;text-align:center;font-size:14px;font-weight:600;padding:10px 16px}
+.galeria{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:127px 127px;gap:6px;height:260px;overflow:hidden}
+.galeria img{width:100%;height:100%;min-height:0;object-fit:cover;display:block}
+.galeria img:first-child{grid-row:1/3}
+.mono{height:150px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0F2747,#1d4f91);color:#fff;font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:34px;letter-spacing:.04em}
+.mono b{color:#F28C28}
+.dest{font-size:14px;background:#FBF3DC;border-radius:8px;padding:8px 10px}
+.cont{font-size:14px;color:var(--gris);border-top:1px solid var(--linea);padding-top:10px;margin-top:6px}
+.gridE{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;align-items:start}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap bar">
+<a class="logo" href="#inicio">
+<svg width="42" height="42" viewBox="0 0 120 120" aria-hidden="true"><g transform="translate(60,60)"><circle r="57" fill="#F2C14E"/><circle r="57" fill="none" stroke="#1F4D3A" stroke-width="4"/><g fill="#1F4D3A"><rect x="-24" y="36" width="48" height="8" rx="4"/><rect x="-24" y="26" width="48" height="8" rx="4"/><rect x="-24" y="16" width="48" height="8" rx="4"/><rect x="-24" y="6" width="48" height="8" rx="4"/><rect x="-24" y="-4" width="48" height="8" rx="4"/></g><path d="M0 -12 V-26" stroke="#1F4D3A" stroke-width="4" stroke-linecap="round"/><path d="M0 -24 C-4 -40 -20 -42 -28 -36 C-26 -22 -10 -18 0 -24 Z" fill="#1F4D3A"/><path d="M0 -26 C4 -44 20 -46 28 -40 C26 -26 10 -22 0 -26 Z" fill="#1F4D3A"/></g></svg>
+Cinco Talentos
+</a>
+<nav aria-label="Secciones">
+<a href="#proposito">Propósito</a>
+<a href="#como">Cómo funcionará</a>
+<a href="#empresas">Empresas</a>
+<a href="#ejemplo">Ejemplo</a>
+<a href="#emprendedores">Para emprendedores</a>
+</nav>
+</div>
+</header>
+
+<div class="prev">VISTA PREVIA INTERNA · Fichas de Ingrid, Claudio y Francisco sin teléfonos ni redes: el contacto pasa por la plataforma · Pendiente su autorización formal · No publicado</div>
+<main id="inicio">
+
+<div class="hero">
+<div class="wrap">
+<span class="tag">Próximamente</span>
+<h1>Compra directo a quienes hacen las cosas con sus manos</h1>
+<p>Cinco Talentos será un mercado en línea de emprendedores formados en el programa Emprende con Propósito: pasteles, tejidos, trabajos en metal y otros oficios. Cada venta convierte el oficio de uno en capital para el siguiente. Este es un anticipo de cómo funcionará.</p>
+<div class="btns">
+<a class="btn oro" href="#como">Ver cómo funcionará</a>
+<a class="btn linea" href="#emprendedores">Soy emprendedor</a>
+</div>
+</div>
+</div>
+
+<section id="proposito">
+<div class="wrap">
+<h2>Nuestro propósito</h2>
+<p class="lead">Convertir el oficio de cada emprendedor en ingresos, y cada venta en capital para el siguiente.</p>
+<div class="grid3">
+<div class="card"><h3>Una vitrina para cada uno</h3><p>Cada emprendimiento tendrá su ficha con su historia, sus productos, sus precios y su zona de entrega.</p></div>
+<div class="card"><h3>Venta con pago en línea</h3><p>Quien compra podrá pagar con tarjeta o transferencia, y el emprendedor recibirá su dinero.</p></div>
+<div class="card"><h3>Un mercado que se sostiene</h3><p>Una pequeña parte de cada venta mantendrá el sitio y alimentará un fondo semilla para nuevos emprendedores.</p></div>
+</div>
+</div>
+</section>
+
+<section id="como" style="padding-top:0">
+<div class="wrap">
+<h2>Cómo funcionará</h2>
+<p class="lead">Comprar será simple, en tres pasos.</p>
+<div class="grid3">
+<div class="card"><span class="num">1</span><h3>Elige y agrega al carrito</h3><p>Se podrá comprar a varios emprendedores en un mismo pedido.</p></div>
+<div class="card"><span class="num">2</span><h3>Paga en línea</h3><p>Con débito, crédito o transferencia, en una pasarela de pago segura.</p></div>
+<div class="card"><span class="num">3</span><h3>Coordina la entrega</h3><p>El emprendedor contacta al comprador para el retiro o el despacho en su zona.</p></div>
+</div>
+</div>
+</section>
+
+<section id="ejemplo" style="padding-top:0">
+<div class="wrap">
+<h2>Conoce a quienes hacen las cosas con sus manos</h2>
+<p class="aviso">Primeros emprendedores de la cohorte. Más fichas se irán sumando.</p>
+<div class="gridE">
+<div class="card ficha"><div class="galeria"><img src="foto1.jpg" alt="Mesa de coctelería"><img src="foto2.jpg" alt="Bocados en cucharas"><img src="foto3.jpg" alt="Arreglo floral"></div><div class="cuerpo"><span class="chip">Coctelería, repostería y florería</span><h3>Ingrid Coctelería y Repostería</h3><p>Mesas completas para celebraciones: bocados dulces y salados, tortas, postres en vasitos y arreglos florales. Desde 2016, Ingrid pone sus manos al servicio de cada evento.</p><p class="dest"><b>Para esta Navidad:</b> pavo horneado, jugoso y listo para disfrutar. Por encargo.</p><p class="cont">Pedidos por encargo, a través de Cinco Talentos</p></div></div>
+<div class="card ficha"><div class="galeria"><img src="foto4.jpg" alt="Camioneta de Electrodark en terreno"><img src="foto5.jpg" alt="Revisión de un tablero eléctrico con cámara termográfica"><img src="foto6.jpg" alt="Equipos de cámaras y grabador para un proyecto de vigilancia"></div><div class="cuerpo"><span class="chip">Electricidad y seguridad · para empresas</span><h3>Electrodark Soluciones Eléctricas</h3><p><i>Conectamos tecnología. Protegemos tu futuro.</i></p><p>Claudio quería emprender desde joven y se fijó la meta de partir a los 30 años. En octubre de 2018 inició Electrodark junto a su hermano José. Hoy instala y mantiene sistemas eléctricos, cámaras de seguridad, redes y respaldo de energía para empresas, comercios e industrias.</p><p class="dest"><b>Ha trabajado con:</b> Planta HELA, Centro comercial Lo Espejo, Carnes Ocampo y Red Vital Macul.</p><p>Instalador eléctrico autorizado SEC Clase A. Atiende desde La Cisterna.</p><p class="cont">Cotizaciones y pedidos, a través de Cinco Talentos</p></div></div>
+<div class="card ficha"><div class="mono" style="background:linear-gradient(135deg,#14302A,#1F4D3A);font-size:30px">DR<b style="color:#F2C14E;margin-left:.3em">FUNKOSHA</b></div><div class="cuerpo"><span class="chip">Ciberseguridad · para empresas</span><h3>Dr Funkosha</h3><p>Asesoría en ciberseguridad defensiva para empresas en crecimiento: ordena la seguridad desde la gerencia, protege equipos y accesos, y capacita a los equipos para reconocer el phishing y actuar en un incidente.</p><p class="dest"><b>Qué hace:</b> auditoría y gestión de riesgos, endurecimiento de equipos y servidores, y talleres para el personal.</p><p>Más de 12 años de experiencia en ciberseguridad. Diplomado en Gestión Estratégica de la Ciberseguridad, Pontificia Universidad Católica de Chile.</p><p class="cont">Cotizaciones, a través de Cinco Talentos</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="banda">
+<div class="wrap">
+<div class="txt">
+<h2>Cada compra multiplica</h2>
+<p>De cada venta, la mayor parte es para el emprendedor. Una comisión menor sostiene la plataforma y alimenta un fondo semilla que financia el inventario inicial de la siguiente cohorte. Cada venta produce un vendedor nuevo.</p>
+<p>La comisión será comparable a la de los mercados establecidos, sin ser simbólica: lo justo para cubrir los costos y sostener el fondo semilla.</p>
+<p>Quien trae a otro emprendedor paga menos comisión por un tiempo, y el programa puede replicarse en otras comunidades que vendan en la misma plataforma.</p>
+</div>
+<div class="reparto">
+<h3>A dónde irá el dinero</h3>
+<div class="barra" role="img" aria-label="Reparto ilustrativo: la mayor parte al emprendedor, una parte menor a la plataforma y otra a la pasarela de pago">
+<div style="flex:88 1 0;background:#1F4D3A"></div><div style="flex:8 1 0;background:#C8952B"></div><div style="flex:4 1 0;background:#7A7566"></div>
+</div>
+<div class="ley"><i style="background:#1F4D3A"></i>Al emprendedor: la mayor parte</div>
+<div class="ley"><i style="background:#C8952B"></i>A Cinco Talentos: plataforma y fondo semilla</div>
+<div class="ley"><i style="background:#7A7566"></i>Costo de la pasarela de pago</div>
+<p style="font-size:13px;color:#4A5350">Proporciones ilustrativas. Los porcentajes aún no están definidos.</p>
+</div>
+</div>
+</section>
+
+<section id="empresas" style="padding-top:0">
+<div class="wrap">
+<h2>Para empresas</h2>
+<p class="lead">Dos formas de trabajar con emprendedores locales: compras para tu equipo (coffee breaks, atenciones y regalos de fin de año, como los de Ingrid) y servicios técnicos para tu operación (como los de Electrodark y Dr Funkosha). Estamos definiendo esta modalidad y pronto publicaremos cómo contactarnos.</p>
+</div>
+</section>
+
+<section id="emprendedores">
+<div class="wrap">
+<h2>Para los emprendedores de la cohorte</h2>
+<p class="lead">Para armar tu ficha necesitamos esta información. Puedes completarla aquí mismo, o entregarla en la próxima sesión o por el grupo de WhatsApp del curso.</p>
+<ul class="lista">
+<li><b>Nombre de tu emprendimiento</b>Y el rubro en que trabajas.</li>
+<li><b>Tu historia en tres líneas</b>Quién eres, qué haces y desde cuándo.</li>
+<li><b>Tus productos o servicios</b>Nombre, descripción breve y precio de cada uno.</li>
+<li><b>Fotos</b>De tus productos y, si quieres, una tuya trabajando.</li>
+<li><b>Zona y forma de entrega</b>Comunas, retiro o despacho, y días de anticipación.</li>
+<li><b>Contacto</b>WhatsApp, Instagram u otro medio que quieras publicar.</li>
+</ul>
+
+<form class="form" name="fichas" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" id="fichas">
+<input type="hidden" name="form-name" value="fichas">
+<p class="oculto"><label>No completar <input name="bot-field"></label></p>
+<h3>Envía los datos de tu emprendimiento</h3>
+<div class="campo"><label for="f-nombre">Tu nombre</label><input id="f-nombre" name="nombre" type="text" required autocomplete="name"></div>
+<div class="campo"><label for="f-emp">Nombre de tu emprendimiento</label><input id="f-emp" name="emprendimiento" type="text" required></div>
+<div class="campo"><label for="f-rubro">Rubro</label><input id="f-rubro" name="rubro" type="text" placeholder="Pastelería, tejido, soldadura…" required></div>
+<div class="campo"><label for="f-tel">WhatsApp o teléfono</label><input id="f-tel" name="telefono" type="tel" required autocomplete="tel"></div>
+<div class="campo"><label for="f-mail">Correo (opcional)</label><input id="f-mail" name="correo" type="email" autocomplete="email"></div>
+<div class="campo"><label for="f-ig">Instagram u otra red (opcional)</label><input id="f-ig" name="red" type="text"></div>
+<div class="campo ancho"><label for="f-hist">Tu historia en tres líneas</label><textarea id="f-hist" name="historia" required></textarea></div>
+<div class="campo ancho"><label for="f-prod">Tus productos o servicios</label><textarea id="f-prod" name="productos" placeholder="Un producto por línea: nombre, descripción breve y precio" required></textarea></div>
+<div class="campo ancho"><label for="f-zona">Zona y forma de entrega</label><input id="f-zona" name="entrega" type="text" placeholder="Comunas, retiro o despacho, días de anticipación" required></div>
+<div class="campo ancho"><label for="f-fotos">Fotos (opcional)</label><input id="f-fotos" name="fotos" type="file" accept="image/*" multiple><small>Hasta 8 MB en total. Si pesan más, puedes enviarlas por el WhatsApp del curso.</small></div>
+<label class="check ancho campo" style="flex-direction:row"><input type="checkbox" name="autorizacion" value="si" required><span>Autorizo que Cinco Talentos publique estos datos y fotos en la ficha de mi emprendimiento y los use para contactarme. Puedo pedir que los modifiquen o retiren cuando quiera.</span></label>
+<button class="enviar" type="submit">Enviar mis datos</button>
+<p class="msg" id="msg" role="status" aria-live="polite"></p>
+</form>
+<script>
+(function(){
+var f=document.getElementById('fichas'),m=document.getElementById('msg'),b=f.querySelector('.enviar');
+f.addEventListener('submit',function(e){
+e.preventDefault();b.disabled=true;m.className='msg';m.textContent='';
+fetch('/',{method:'POST',body:new FormData(f)}).then(function(r){
+if(!r.ok)throw new Error(r.status);
+f.reset();m.className='msg ok';m.textContent='Recibimos tus datos. Gracias. Te avisaremos cuando tu ficha esté lista.';
+}).catch(function(){
+m.className='msg err';m.textContent='No pudimos enviar el formulario. Inténtalo de nuevo o entrega tus datos por el grupo de WhatsApp del curso.';
+}).then(function(){b.disabled=false;});
+});
+})();
+</script>
+</div>
+</section>
+
+<section id="historia" style="background:var(--oro-suave)">
+<div class="wrap">
+<h2>Nuestra historia</h2>
+<p class="lead" style="margin-bottom:16px">Cinco Talentos nació en una comunidad de La Cisterna, en un curso de emprendimiento. Sus valores son el trabajo digno, el trato justo, la confianza y multiplicar lo recibido.</p>
+<blockquote>«Sobre poco has sido fiel, sobre mucho te pondré.»<cite>Mateo 25:21 (RV1960)</cite></blockquote>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="wrap">Cinco Talentos. Una iniciativa nacida del programa de formación Emprende con Propósito. Sitio en construcción.</div>
+</footer>
+
+</body>
+</html>
